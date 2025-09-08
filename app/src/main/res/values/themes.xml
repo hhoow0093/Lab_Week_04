@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Material3 theme with no ActionBar -->
+    <style name="Base.Theme.Lab_Week_04" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your Material3 colors if needed -->
+         <item name="colorPrimary">@color/light_brown</item>
+    </style>
+
+    <!-- App theme -->
+    <style name="Theme.Lab_Week_04" parent="Base.Theme.Lab_Week_04" />
+
+    <!-- Overlay styles for Toolbar menus -->
+    <style name="Theme.NavigationDrawer.AppBarOverlay"
+        parent="ThemeOverlay.Material3.Dark.ActionBar" />
+    <style name="Theme.NavigationDrawer.PopupOverlay"
+        parent="ThemeOverlay.Material3.Light" />
+
+</resources>
